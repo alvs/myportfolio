@@ -1,32 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
+
+
+/*start modules*/
+.text-center{
+	text-align: center;
+}
+.clear-margin-pad-top {
+	margin-top: 0;
+	padding-top: 0;
+}
+/*end of modules*/
 .floor{
 	background-color: rgba(255,255,255,1.00);
 	background-image: url(../img/my-background_02.jpg); 
 	background-repeat: no-repeat;
-	background-position:bottom;
-	background-size: 100% 41%;
-	margin-top: 10.7%;
+	background-position: center bottom;
+	background-size: 100% 46%;
+	margin-top: 10%;
 	position:relative;
 }
 .table-align {
-	padding-left: 10%;
-	padding-bottom: 3%;
+	padding-bottom: 10%;
 }
-h2 {
-	text-align:center;
-	font-weight: bold;
+.text-head {
+	font-size: 60px;
 }
-div li>a {
+li>a {
 	font-size: 16px;
 }
-hgroup h3{
+hgroup h2{
 	margin-top: -10px;
-	text-align:center;
 }
-
-@media (min-width: 1024px){
-	h2 {
-		font-size:36px;
+.social-move-right{
+	margin-right: -50px;
+}
+@media screen and (max-width: 320px) {
+	.text-head {
+		font-size: 18px;
+		padding-top: 20%;
+		padding-bottom: -5%;
 	}
+	.support-text-head {
+		font-size: 14px;
 }
