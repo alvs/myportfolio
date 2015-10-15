@@ -1,27 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-/*start modules*/
+/*reusable-scope*/
 .text-center{
 	text-align: center;
 }
-.clear-margin-pad-top {
+.distance-top-reset {
 	margin-top: 0;
 	padding-top: 0;
 }
-/*end of modules*/
+.content-header {
+	font-size:36px;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+.img-center {
+	margin:auto;
+	width: auto;
+}
+.caption-img{
+	font-size: 24px;
+	font-weight:bold;
+	margin-top: 5px;
+	text-align:center;
+}
+.distance-skill-icon{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+/*end reusable-scope*/
+body{
+	position:relative;
+}
 .floor{
 	background-color: rgba(255,255,255,1.00);
 	background-image: url(../img/my-background_02.jpg); 
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-size: 100% 46%;
+	background-size: 100% 40%;
 	margin-top: 10%;
 	position:relative;
 }
+.nav-left li {
+	padding-right: 25px;
+}
 .table-align {
-	padding-bottom: 10%;
+	padding-bottom: 8%;
+	padding-left: 10%;
+	height: 300px;
+	width: 600px;
 }
 .text-head {
 	font-size: 60px;
@@ -32,8 +59,58 @@ li>a {
 hgroup h2{
 	margin-top: -10px;
 }
-.social-move-right{
-	margin-right: -50px;
+.social-icon{
+	padding-bottom: 10px;
+}
+.about-text{
+	font-size:18px;
+}
+.contact-bg{
+	background-color: #b5a15e;
+}
+textarea{
+	resize:vertical;
+}
+.submit-btn {
+	border-radius: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.devices-bg {
+	background-color:#3366cc;
+	margin-top: 10px;
+}
+.devices-padding{
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+.contact-head{
+	font-size:36px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.devices-tagline {
+	padding-top: 15px;
+	font-size: 30px;
+	color:#ffffff;
+}
+.devices-tagline span{
+	font-size: 36px;
+}
+.foo-last {
+	background-color: #336699;
+}
+.foo-distance{
+	color: #ffffff;
+	padding-top: 1%;
+}
+.foo-distance a{
+	color: #ffffff;
+	font-style:italic;
+}
+.foo-distance a:hover{
+	color: #ffffff;
+	font-weight: bold;
 }
 @media screen and (max-width: 320px) {
 	.text-head {
@@ -41,6 +118,6 @@ hgroup h2{
 		padding-top: 20%;
 		padding-bottom: -5%;
 	}
-	.support-text-head {
+	.text-head-subtext {
 		font-size: 14px;
 }
