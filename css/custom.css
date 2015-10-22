@@ -11,7 +11,7 @@
 }
 .content-header {
 	font-size:36px;
-	margin-top: 3%;
+	margin-top: 6%;
 	margin-bottom: 4%;
 }
 .img-center {
@@ -24,13 +24,12 @@
 	margin-top: 5px;
 	text-align:center;
 }
-.distance-skill-icon{
-	margin-top: 50px;
-	margin-bottom: 30px;
-}
 /*end reusable-scope*/
 body{
 	position:relative;
+}
+.distance-uppermost{
+	margin-top: 10%;
 }
 .floor{
 	background-color: rgba(255,255,255,1.00);
@@ -38,7 +37,6 @@ body{
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 100% 40%;
-	margin-top: 10%;
 	position:relative;
 }
 .nav-left li {
@@ -46,7 +44,7 @@ body{
 }
 .table-align {
 	padding-bottom: 8%;
-	padding-left: 10%;
+	padding-left: 5%;
 	height: 300px;
 	width: 600px;
 }
@@ -59,22 +57,27 @@ li>a {
 hgroup h2{
 	margin-top: -10px;
 }
+/*-----about-me------*/
+.separating-div{
+	margin-top: 5%;
+}
 .social-icon{
 	padding-bottom: 10px;
 }
 .about-text{
 	font-size:18px;
 }
+.skills-distance{
+	padding-bottom: 70px;
+}
+/*----contact-me------*/
 .contact-bg{
 	background-color: #b5a15e;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 textarea{
 	resize:vertical;
-}
-.submit-btn {
-	border-radius: 20px;
-	padding-left: 2px;
-	padding-right: 2px;
 }
 .devices-bg {
 	background-color:#3366cc;
@@ -82,12 +85,12 @@ textarea{
 }
 .devices-padding{
 	padding-top: 20px;
-	padding-bottom: 20px;	
+	padding-bottom: 30px;	
 }
 .contact-head{
 	font-size:36px;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 1%;
+	margin-bottom: 20px;;
 }
 .devices-tagline {
 	padding-top: 15px;
