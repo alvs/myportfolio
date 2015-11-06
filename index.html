@@ -22,7 +22,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="-50">
+<body>
   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
   	<div class="container">
         <div class="col-lg-1">
@@ -37,8 +37,8 @@
               </button>
             <div class="collapse navbar-collapse" id="target-collapse">
               <ul class="nav navbar-nav nav-left">
-                  <li><a href="#view-home">Home</a></li>	
-                  <li class="active"><a href="#view-about">About</a></li>	
+                  <li class="active"><a href="#view-home">Home</a></li>	
+                  <li><a href="#view-about">About</a></li>	
                   <li><a href="#view-contact">Contact</a></li>	
               </ul>
             </div> <!---end-collapse--->
@@ -50,7 +50,7 @@
   </nav>
   <div id="view-home" class=" container-fluid floor">
     <div class="distance-uppermost col-lg-12"></div>
-    <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs">           	
+    <div class="col-lg-2 col-md-1 hidden-xs">           	
     </div>
     <div class="col-lg-8 col-md-10 col-sm-10 col-xs-12">
       <hgroup>
@@ -117,16 +117,16 @@
         	<form role="form">
             	<div class="col-lg-5 col-md-5 col-sm-5"><!--start-input-field-->
                     <div class="form-group">
-                      <label>Name</label>
-                      <input type="text" class="form-control" placeholder="Your name" required autofocus>
+                      <label for="name">Name</label>
+                      <input id="name" type="text" class="form-control" placeholder="Your name" required autofocus>
                     </div>
                     <div class="form-group">
                       <label for="email">Email</label>
                       <input id="email" type="email" class="form-control" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                      <label>field of Interest</label>
-                      <select name="field of Interest" class="form-control">
+                      <label for="interest">field of Interest</label>
+                      <select id="interest" name="field of Interest" class="form-control">
                         <option value="computer technology">Computer Technology</option>
                          <option value="computer technology">SEO and Marketing</option>
                          <option value="computer technology">Web Design and Development</option>
@@ -135,8 +135,9 @@
                 </div><!--end-input-field-->
                 <div class="col-lg-7 col-md-7 col-sm-7"><!--start-comments-field-->
                 	<div class="form-group">
-                    	<label>Comments</label>
-                    	<textarea class="form-control" rows="5"  placeholder="Enter your Comments" required></textarea><br />
+                    	<label for="comments">Comments</label>
+                    	<textarea id="comments" class="form-control" rows="5"  placeholder="Enter your Comments" required>
+                        </textarea><br />
                         <button class="btn btn-primary submit-btn">Submit</button>
                     </div>	
                 </div><!--start-comments-field-->
@@ -146,16 +147,16 @@
   </div><!--end-contact-me-->
   <div class="container-fluid devices-bg">
   	<div class="container">
-    	<div class="col-lg-6">
-            <h5 class="devices-tagline">I'm working on these<br/><span>Devices</span></h5>
+    	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h5 class="devices-tagline response-h5">I'm working on these<br/><span>Devices</span></h5>
         </div>
-        <div class="col-lg-2 devices-padding">
-        	<img src="img/devices-desktop.png" class="img-responsive img-center" alt="Desktop Device" width="80px" height="80px">	
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 devices-padding">
+        	<img src="img/devices-desktop.png" class="img-responsive img-center" alt="Desktop Device">	
         </div>
-        <div class="col-lg-2 devices-padding">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 devices-padding">
         	<img src="img/devices-tablet.png" class="img-responsive img-center" alt="Tablet Device">	
         </div>
-        <div class="col-lg-2 devices-padding">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 devices-padding">
         	<img src="img/devices-phone.png" class="img-responsive img-center" alt="Phone Device">	
         </div>
     </div>
@@ -163,10 +164,10 @@
   <footer class="container-fluid foo-last">
   	<div class="container">
     	<div class="col-lg-5 col-md-5 col-sm-5">
-          <p class="foo-distance">&copy;Copyright Reserved 2015</p>
+          <p class="foo-distance response-footer-text">&copy;Copyright Reserved 2015</p>
       	</div>
         <div class="col-lg-7 col-md-7 col-sm-7">
-          <p class=" foo-distance pull-right">You may also send Inquiries @ &nbsp;
+          <p class=" foo-distance response-footer-text pull-right">You may also send Inquiries @ &nbsp;
           <a href="mailto:alvsroa@outlook.com" target="_blank">alvsroa@outlook.com</a></p>
       	</div>
     </div>
