@@ -23,6 +23,7 @@
     <![endif]-->
 </head>
 <body>
+<div class="wrapper">
   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
   	<div class="container">
         <div class="col-lg-1">
@@ -37,8 +38,8 @@
               </button>
             <div class="collapse navbar-collapse" id="target-collapse">
               <ul class="nav navbar-nav nav-left">
-                  <li class="active"><a href="#view-home">Home</a></li>	
-                  <li><a href="#view-about">About</a></li>	
+                  <li class="active"><a href="#home">Home</a></li>	
+                  <li><a href="#view_about">About</a></li>	
                   <li><a href="#view-contact">Contact</a></li>	
               </ul>
             </div> <!---end-collapse--->
@@ -48,8 +49,7 @@
           </div>
       </div> <!---end-container--->
   </nav>
-  <div id="view-home" class=" container-fluid floor">
-    <div class="distance-uppermost col-lg-12"></div>
+  <div id="view_home" class=" container-fluid floor distance-uppermost">
     <div class="col-lg-2 col-md-1 hidden-xs">           	
     </div>
     <div class="col-lg-8 col-md-10 col-sm-10 col-xs-12">
@@ -63,16 +63,16 @@
     	<ul class=" list-unstyled pull-right">
         	<li><img src="img/facebook.png" alt="facebook icon" height="52" width="52"></li>
             <li><img src="img/google+.png" alt="google+ icon"  height="52" width="52"></li>
-            <li><img src="img/github-icon.png" alt="github icon"  height="52" width="52"></li>
+            <li><img src="img/github-icon.png" alt="github icon"  height="52" width="52"></li> 
             <li><img src="img/twitter.png" alt="twitter icon"  height="52" width="52"></li>
             <li><img src="img/dribbble.png" alt="dribbble icon"  height="52" width="52"></li>
         </ul>
     </div>
   </div> <!---end-container-fluid-upper--->
   <div class="container-fluid"><!--start-about-me-->
-  	<div id="view-about" class="container">
+  	<div id="view_about" class="container">
     	<div class="col-lg-12">
-        	<h4 class="text-center content-header bounceInLeft"><strong>About me</strong></h4>
+        	<h4 class="text-center content-header"><strong>About me</strong></h4>
         </div>
     	<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
         </div>
@@ -114,19 +114,19 @@
     </div> 
     <div class=" col-lg-12">
     	<div class="row">
-        	<form role="form">
+        	<form role="form" action="sendmail.php" method="post">
             	<div class="col-lg-5 col-md-5 col-sm-5"><!--start-input-field-->
                     <div class="form-group">
                       <label for="name">Name</label>
-                      <input id="name" type="text" class="form-control" placeholder="Your name" required autofocus>
+                      <input id="name" type="text" class="form-control" placeholder="Your name" required autofocus name="fname">
                     </div>
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input id="email" type="email" class="form-control" placeholder="Your Email" required>
+                      <input id="email" type="email" class="form-control" placeholder="Your Email" required name="email">
                     </div>
                     <div class="form-group">
                       <label for="interest">field of Interest</label>
-                      <select id="interest" name="field of Interest" class="form-control">
+                      <select id="interest" name="Interest" class="form-control">
                         <option value="computer technology">Computer Technology</option>
                          <option value="computer technology">SEO and Marketing</option>
                          <option value="computer technology">Web Design and Development</option>
@@ -136,7 +136,7 @@
                 <div class="col-lg-7 col-md-7 col-sm-7"><!--start-comments-field-->
                 	<div class="form-group">
                     	<label for="comments">Comments</label>
-                    	<textarea id="comments" class="form-control" rows="5"  placeholder="Enter your Comments" required>
+                    	<textarea id="comments" class="form-control" rows="5"  placeholder="Enter your Comments" required name="comments">
                         </textarea><br />
                         <button class="btn btn-primary submit-btn">Submit</button>
                     </div>	
@@ -172,5 +172,6 @@
       	</div>
     </div>
   </footer>
+</div>
 </body>
 </html>
