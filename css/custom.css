@@ -31,7 +31,7 @@ body{
 }
 .distance-uppermost{
 	margin-top: 10%;
-	position: absolute;
+	position: relative;
 }
 .floor{
 	background-color: rgba(255,255,255,1.00);
