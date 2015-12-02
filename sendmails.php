@@ -3,14 +3,17 @@
  * This example shows sending a message using a local sendmail binary.
  */
 
-include 'phpmailer/PHPMailerAutoload.php';
+ require 'phpmailer/PHPMailerAutoload.php';
 
+$myEmail = $_POST["email"];
+$myFirstName = $_POST['fname'];
+$myComment = $_POST['comments'];
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 // Set PHPMailer to use the sendmail transport
 $mail->isSendmail();
 //Set who the message is to be sent from
-$mail->setFrom($_POST["email"],$_POST['fname']);
+$mail->setFrom($myEmail,$myFirstName);
 //Set an alternative reply-to address
 /*$mail->addReplyTo('replyto@example.com', 'First Last');*/
 //Set who the message is to be sent to
@@ -19,11 +22,14 @@ $mail->addAddress("alvinroasol2012@gmail.com", "alvsroa");
 $mail->Subject = 'PHPMailer sendmail test';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
-$mail->msgHTML($_POST['comments']);
+$mail->msgHTML($myComment);
+//$mail->Body = $myComment;
 //Replace the plain text body with one created manually
-//$mail->AltBody($_POST['comments']);
+$mail->AltBody='altbody';
 //Attach an image file
 /*$mail->addAttachment('images/phpmailer_mini.png');*/
+
+var_dump($mail->send());
 
 //send the message, check for errors
 if (!$mail->send()) {
@@ -31,3 +37,5 @@ if (!$mail->send()) {
 } else {
     echo "Message sent!";
 }
+
+?>

@@ -25,6 +25,11 @@
 	margin-top: 5px;
 	text-align:center;
 }
+
+.status-email {
+	color: #CCFFFF;
+	font-size:14px;
+}
 /*end reusable-scope*/
 body{
 	position:relative;
@@ -58,6 +63,21 @@ li>a {
 }
 hgroup h2{
 	margin-top: -10px;
+}
+.social-connections li img {
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-ms-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	overflow: hidden;
+}
+.social-connections li img:hover {
+	transform-origin:center top;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	-ms-transform-origin: center left;
 }
 /*-----about-me------*/
 .separating-div{

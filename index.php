@@ -60,7 +60,7 @@
       <img src="img/lamp-table.png" alt="table" class="img-responsive table-align">
     </div>
     <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs">
-    	<ul class=" list-unstyled pull-right">
+    	<ul class=" list-unstyled pull-right social-connections">
         	<li><img src="img/facebook.png" alt="facebook icon" height="52" width="52"></li>
             <li><img src="img/google+.png" alt="google+ icon"  height="52" width="52"></li>
             <li><img src="img/github-icon.png" alt="github icon"  height="52" width="52"></li> 
@@ -116,7 +116,7 @@
     </div> 
     <div class=" col-lg-12">
     	<div class="row">
-        	<form role="form" action="sendmail.php" method="POST">
+        	<form role="form" action=" " method="POST">
             	<div class="col-lg-5 col-md-5 col-sm-5"><!--start-input-field-->
                     <div class="form-group">
                       <label for="name">Name</label>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="form-group">
                       <label for="interest">field of Interest</label>
-                      <select id="interest" name="Interest" class="form-control">
+                      <select id="interest" name="interest" class="form-control">
                         <option value="computer technology">Computer Technology</option>
                          <option value="computer technology">SEO and Marketing</option>
                          <option value="computer technology">Web Design and Development</option>
@@ -144,6 +144,9 @@
                     </div>	
                 </div><!--start-comments-field-->
             </form>
+            <div class="status-email">
+            	<?php include "mymail.php"; ?>
+            </div>
         </div>
     </div> 
   </div><!--end-contact-me-->
