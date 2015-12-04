@@ -8,6 +8,7 @@
 $myEmail = $_POST["email"];
 $myFirstName = $_POST['fname'];
 $myComment = $_POST['comments'];
+
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 // Set PHPMailer to use the sendmail transport
@@ -29,6 +30,7 @@ $mail->AltBody='altbody';
 //Attach an image file
 /*$mail->addAttachment('images/phpmailer_mini.png');*/
 
+echo $myEmail."<br />".$myFirstName."<br />".$myComment ;
 var_dump($mail->send());
 
 //send the message, check for errors

@@ -8,8 +8,9 @@
 	$headers = "from: {$from}\n";
 	$headers .= "Reply-To: {$from}\n";
 	
-	$results = mail($subject, $message, $headers);
-	echo $results ? 'Thank you for your message' : 'message was not successfully sent';
+	if (mail($subject, $message, $headers)){
+    $results ? 'Thank you for your message' : 'message was not successfully sent';
+	}
 	
   }
 ?>
