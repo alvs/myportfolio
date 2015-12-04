@@ -1,30 +1,86 @@
-
-<div style="width:auto; height: 1500px"></div>
-	<div class="Desktop">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="84px"
-			 height="144px" viewBox="0 0 84 144" enable-background="new 0 0 84 144" xml:space="preserve">
-		<g id="Layer_2" display="none">
-			<rect display="inline" fill="#21409A" width="84" height="144"/>
-		</g>
-		<g id="Layer_1">
-			<path id="outer_3_" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.468,127.273
-				c0.542,0.986,73.796,0.839,74.843,0c1.048-0.837,0.777-117.916,0-117.916c-0.776,0-73.971-1.693-74.843,0
-				C3.596,11.051,3.926,126.288,4.468,127.273z"/>
-			<path id="outer_2_" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.468,141.196
-				c0.542,1.156,73.796,0.982,74.843,0c1.048-0.982,0.777-138.313,0-138.313c-0.776,0-73.971-1.986-74.843,0
-				C3.596,4.869,3.926,140.04,4.468,141.196z"/>
-			<polyline id="ckeck_1_" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" points="
-				28.869,65.833 41.452,80.426 59.092,48.764 	"/>
-			
-				<rect id="d-out-in_1_" y="127.74" display="none" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="3.319" height="2.445"/>
-			<ellipse id="circle_3_" fill="#FFFFFF" stroke="#D1D3D4" stroke-miterlimit="10" cx="41.151" cy="5.26" rx="1.397" ry="1.528"/>
-			
-				<line id="flat-button_7_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="35.063" y1="134.396" x2="47.239" y2="134.396"/>
-			
-				<line id="flat-button_6_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="59.092" y1="134.396" x2="68.485" y2="134.396"/>
-			
-				<line id="flat-button_5_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="15.854" y1="134.396" x2="25.248" y2="134.396"/>
-		</g>
-		</svg>
-	</div>
+<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding">	
+	<svg id = "device-1" class="img-responsive img-center" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="84px"
+				 height="144px" viewBox="0 0 84 144" enable-background="new 0 0 84 144" xml:space="preserve">
+			<g id="Layer_2" display="none">
+				<rect display="inline" fill="#21409A" width="84" height="144"/>
+			</g>
+			<g id="Layer_1">
+				<path id="outer_3_" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.468,127.273
+					c0.542,0.986,73.796,0.839,74.843,0c1.048-0.837,0.777-117.916,0-117.916c-0.776,0-73.971-1.693-74.843,0
+					C3.596,11.051,3.926,126.288,4.468,127.273z"/>
+				<path id="outer_2_" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.468,141.196
+					c0.542,1.156,73.796,0.982,74.843,0c1.048-0.982,0.777-138.313,0-138.313c-0.776,0-73.971-1.986-74.843,0
+					C3.596,4.869,3.926,140.04,4.468,141.196z"/>
+				<polyline id="ckeck_1_" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" points="
+					28.869,65.833 41.452,80.426 59.092,48.764 	"/>
+				
+					<rect id="d-out-in_1_" y="127.74" display="none" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="3.319" height="2.445"/>
+				<ellipse id="circle_3_" fill="#FFFFFF" stroke="#D1D3D4" stroke-miterlimit="10" cx="41.151" cy="5.26" rx="1.397" ry="1.528"/>
+				
+					<line id="flat-button_7_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="35.063" y1="134.396" x2="47.239" y2="134.396"/>
+				
+					<line id="flat-button_6_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="59.092" y1="134.396" x2="68.485" y2="134.396"/>
+				
+					<line id="flat-button_5_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="15.854" y1="134.396" x2="25.248" y2="134.396"/>
+			</g>
+	</svg>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding">	
+	<svg id = "device-2" class="img-responsive img-center" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="104px"
+		 height="144px" viewBox="0 0 104 144" enable-background="new 0 0 104 144" xml:space="preserve">
+	<g id="Layer_2" display="none">
+		<rect display="inline" fill="#21409A" width="104" height="144"/>
+	</g>
+	<g id="Layer_1">
+		<path id="inner" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M8.114,128.554
+			c0.649,0.974,88.16,0.827,89.41,0c1.252-0.827,0.928-116.452,0-116.452s-88.367-1.672-89.41,0
+			C7.072,13.774,7.466,127.58,8.114,128.554z"/>
+		<path id="outside" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M4.115,139.553
+			c0.703,1.126,95.67,0.957,97.028,0c1.357-0.957,1.007-134.693,0-134.693c-1.008,0-95.898-1.935-97.028,0
+			C2.984,6.794,3.412,138.426,4.115,139.553z"/>
+		<path id="inside_2_" display="none" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.115,150.331
+			c0.703,1.067,96.014,0.907,97.372,0c1.357-0.907,0.663-127.716-0.344-127.716"/>
+		<path id="inside_1_" display="none" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.459,150.331
+			c0.703,1.067,96.015,0.907,97.372,0c1.358-0.907,0.663-127.716-0.344-127.716"/>
+		<path id="inside_3_" display="none" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M4.803,150.331
+			c0.704,1.067,96.015,0.907,97.372,0c1.358-0.907,0.663-127.716-0.344-127.716"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" points="41.065,67.345 
+			52.677,81.032 68.954,51.335 	"/>
+		
+			<rect id="d-out-in" x="51.727" y="136.703" display="none" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="2.064" height="3.403"/>
+		<ellipse id="circle" fill="#FFFFFF" stroke="#D1D3D4" stroke-miterlimit="10" cx="52.398" cy="7.474" rx="1.29" ry="1.433"/>
+		
+			<line id="flat-button" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="46.437" y1="135.093" x2="57.673" y2="135.093"/>
+	</g>
+	</svg>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding">	
+	<svg id ="device-3" class="img-responsive img-center" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="134px"
+		 height="134px" viewBox="0 0 134 134" enable-background="new 0 0 134 134" xml:space="preserve">
+	<g id="Layer_1" display="none">
+		<rect display="inline" fill="#21409A" width="134" height="134"/>
+	</g>
+	<g id="Layer_2">
+		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M6.704,88.521h121.02c0,0,1.257-81.752,0-81.752
+			S7.696,7.853,6.704,6.77C5.711,5.688,6.704,88.521,6.704,88.521z"/>
+		
+			<rect x="55.11" y="111.661" display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="9.856" height="4.518"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="52.79,49.399 
+			67.271,65.628 87.574,30.417 	"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M2.646,2.975c0.646-1.001,128.17-1.567,128.99,0
+			s0,95.957,0,95.957H2.646C2.646,98.932,2,3.976,2.646,2.975z"/>
+		<path display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M2,21.648"/>
+		<rect x="2.383" y="33.691" display="none" fill="none" width="3.429" height="2.115"/>
+		<path fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M73.158,78.417"/>
+		<path fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M59.824,78.417"/>
+		<line fill="#FFFFFF" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="24.861" y1="93.727" x2="38.194" y2="93.727"/>
+		
+			<line fill="#FFFFFF" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="95.217" y1="93.727" x2="108.551" y2="93.727"/>
+		<line fill="#FFFFFF" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="60.038" y1="93.727" x2="73.373" y2="93.727"/>
+		<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M62.647,93.989"/>
+		<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M50.636,93.989"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="85.837,98.506 85.837,126.183 
+			108.551,126.183 108.551,132 24.861,132 24.861,126.183 49.604,126.183 49.604,98.932 	"/>
+	</g>
+	</svg>
 </div>

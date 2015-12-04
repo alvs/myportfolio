@@ -15,7 +15,7 @@
 	margin-bottom: 4%;
 }
 .img-center {
-	margin:auto;
+	margin:0 auto;
 	width: auto;
 	cursor: pointer;
 }

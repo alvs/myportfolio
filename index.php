@@ -13,6 +13,7 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/walkway.js" type="text/javascript"></script>
 <script src="js/wow.min.js" type="text/javascript"></script>
 <script src="js/custom.js" type="text/javascript"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,7 +23,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 <div class="wrapper">
   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
   	<div class="container">
@@ -38,8 +39,8 @@
               </button>
             <div class="collapse navbar-collapse" id="target-collapse">
               <ul class="nav navbar-nav nav-left">
-                  <li class="active"><a href="#home">Home</a></li>	
-                  <li><a href="#view_about">About</a></li>	
+                  <li class="active"><a href="#view-home">Home</a></li>	
+                  <li><a href="#view-about">About</a></li>	
                   <li><a href="#view-contact">Contact</a></li>	
               </ul>
             </div> <!---end-collapse--->
@@ -49,7 +50,8 @@
           </div>
       </div> <!---end-container--->
   </nav>
-  <div id="view_home" class=" container-fluid floor distance-uppermost">
+  <div id="view-home" class=" container-fluid floor">
+  <div  class="distance-uppermost">
     <div class="col-lg-2 col-md-1 hidden-xs">           	
     </div>
     <div class="col-lg-8 col-md-10 col-sm-10 col-xs-12">
@@ -69,8 +71,9 @@
         </ul>
     </div>
   </div> <!---end-container-fluid-upper--->
+  </div>
   <div class="container-fluid"><!--start-about-me-->
-  	<div id="view_about" class="container">
+  	<div id="view-about" class="container">
     	<div class="col-lg-12">
         	<h4 class="text-center content-header"><strong>About me</strong></h4>
         </div>
@@ -110,9 +113,9 @@
         </div>
     </div>
   </div><!--end-about-me-->
-  <div id="view-contact" class="container contact-bg"><!--start-contact-me-->
+  <div  class="container contact-bg"><!--start-contact-me-->
   	<div class="col-lg-12">
-    	<h4 class="text-center contact-head"><strong>Contact me</strong></h4>
+    	<h4 id="view-contact" class="text-center contact-head"><strong>Contact me</strong></h4>
     </div> 
     <div class=" col-lg-12">
     	<div class="row">
@@ -150,19 +153,16 @@
         </div>
     </div> 
   </div><!--end-contact-me-->
-  <div class="container-fluid devices-bg">
+  <div id="device" class="container-fluid devices-bg">
   	<div class="container">
     	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h5 class="devices-tagline response-h5">I'm working on these<br/><span>Devices</span></h5>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 devices-padding">
-        	<img src="img/devices-desktop.png" class="img-responsive img-center" alt="Responsive Desktop Design">	
+        <div id = "phone" class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding img-responsive img-center">	
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 devices-padding">
-        	<img src="img/devices-tablet.png" class="img-responsive img-center" alt="Tablet Device">	
+        <div id = "tablet" class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding img-responsive img-center">
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 devices-padding">
-        	<img src="img/devices-phone.png" class="img-responsive img-center" alt="Phone Device">	
+        <div id = "pc-desktop" class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding img-responsive img-center">
         </div>
     </div>
   </div>
