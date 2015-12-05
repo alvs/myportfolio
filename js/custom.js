@@ -11,12 +11,10 @@ $(window).scroll(function(){
 	
 	});
 function loadDevices() {
-	$('#phone').load('svgphone.text', 'slow');
-	$('#tablet').load('svgtablet.text', 'slow');
-	$('#pc-desktop').load('svgdesktop.text', 'slow');
+	$('#deviceLoad').load('mysvg.text', 'slow');
 	var svg2 = new Walkway({
           selector: '#device-1',
-          duration: 'slow',
+          duration: '1000',
           easing: 'swing'
         }).draw(function() {
           
@@ -24,14 +22,14 @@ function loadDevices() {
 		
 		var svg2 = new Walkway({
           selector: '#device-2',
-          duration: 'slow',
+          duration: '4000',
           easing: 'swing'
         }).draw(function() {
      
         });
 		var svg2 = new Walkway({
           selector: '#device-3',
-          duration: 'slow',
+          duration: '7000',
           easing: 'swing'
         }).draw(function() {
          

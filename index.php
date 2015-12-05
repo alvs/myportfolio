@@ -1,16 +1,16 @@
 <!doctype html>
-<html>
+<html lang = "en">
 <head>
 <meta charset="utf-8">
 <title>Alvsroa</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="keywords" content="web development,online portfolio,computer tweaking,SEO, online marketing,web design, computer troubleshooting">
+<meta name="description" content="A Passionate IT doer and Web Enthusiast">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <meta name="author" content="Alvin S. Roasol">
-<link href="css/custom.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/walkway.js" type="text/javascript"></script>
@@ -57,7 +57,7 @@
     <div class="col-lg-8 col-md-10 col-sm-10 col-xs-12">
       <hgroup>
         <h1 id = "home" class=" distance-top-reset text-center text-head"><strong>Hi I'm Alvs</strong></h1>
-        <h2 class=" distance-top-reset text-center text-head-subtext">a Passionate IT and Web Enthusiast</h2>
+        <h2 class=" distance-top-reset text-center text-head-subtext">a Passionate IT doer and Web Enthusiast</h2>
       </hgroup>
       <img src="img/lamp-table.png" alt="table" class="img-responsive table-align">
     </div>
@@ -72,8 +72,8 @@
     </div>
   </div> <!---end-container-fluid-upper--->
   </div>
-  <div class="container-fluid"><!--start-about-me-->
-  	<div id="view-about" class="container">
+  <div id="view-about" class="container-fluid"><!--start-about-me-->
+  	<div class="container">
     	<div class="col-lg-12">
         	<h4 class="text-center content-header"><strong>About me</strong></h4>
         </div>
@@ -83,12 +83,14 @@
         	<img src="img/profile-pic.png" title="profile picture" class="img-rounded img-responsive img-center">
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7">
-            <p class="about-text">Hello it's me and yes that is my face...</p>
-            <p class="about-text">It’s my pleasure to meet you here at my workplace by the way I’m great fan of Web Technology and 
-			everything about Computer, that’s why I love Web development and do Computer tweaking. If you find these things I do 
-			are interesting and would like to share your awesome Ideas with me, you may tickle me an Email.
-            </p>
-            <p class="about-text"><q>I make awesome things happen</q></p>            	
+			<article>
+				<p class="about-text">Hello it's me and yes that is my face...</p>
+				<p class="about-text">It’s my pleasure to meet you here at my workplace by the way I’m great fan of Web Technology and 
+				everything about Computer, that’s why I love Web development and do Computer tweaking. If you find these things I do 
+				are interesting and would like to share your awesome Ideas with me, you may tickle me an Email.
+				</p>
+				<p class="about-text"><q>I make awesome things happen</q></p> 
+			</article>
         </div>
         <div class="col-lg-12 separating-div"></div>
          <div class="container skills-distance">
@@ -158,12 +160,8 @@
     	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h5 class="devices-tagline response-h5">I'm working on these<br/><span>Devices</span></h5>
         </div>
-        <div id = "phone" class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding img-responsive img-center">	
-        </div>
-        <div id = "tablet" class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding img-responsive img-center">
-        </div>
-        <div id = "pc-desktop" class="col-lg-2 col-md-2 col-sm-4 col-xs-12 devices-padding img-responsive img-center">
-        </div>
+        <div id ="deviceLoad">
+		</div>
     </div>
   </div>
   <footer class="container-fluid foo-last">
