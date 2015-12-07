@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <title>Alvsroa</title>
-<meta name="keywords" content="web development,online portfolio,computer tweaking,SEO, online marketing,web design, computer troubleshooting">
+<meta name="keywords" content="web development,computer tweaking,SEO, online marketing,web design, computer troubleshooting">
 <meta name="description" content="A Passionate IT doer and Web Enthusiast">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <meta name="author" content="Alvin S. Roasol">
 <link href="css/custom.css" rel="stylesheet">
+<link href="img/favicon.ico" rel="shortcut icon">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
 <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
@@ -121,7 +122,7 @@
     </div> 
     <div class=" col-lg-12">
     	<div class="row">
-        	<form role="form" action=" " method="POST">
+        	<form role="form" action="sendmails.php" method="POST">
             	<div class="col-lg-5 col-md-5 col-sm-5"><!--start-input-field-->
                     <div class="form-group">
                       <label for="name">Name</label>
@@ -150,7 +151,7 @@
                 </div><!--start-comments-field-->
             </form>
             <div class="status-email">
-            	<?php include "mymail.php"; ?>
+            	
             </div>
         </div>
     </div> 

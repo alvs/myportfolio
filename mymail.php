@@ -7,7 +7,7 @@
 	$from = $_POST['fname']."<".$_POST['email'].">";
 	$headers = "from: {$from}\n";
 	$headers .= "Reply-To: {$from}\n";
-	
+	$results = mail($subject, $message, $headers);
 	if (mail($subject, $message, $headers)){
     $results ? 'Thank you for your message' : 'message was not successfully sent';
 	}
